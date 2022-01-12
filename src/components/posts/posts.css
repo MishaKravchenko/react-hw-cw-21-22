@@ -1,0 +1,12 @@
+.container_posts{
+    background-color: #6581ff;
+    display: flex;
+    max-width: 50%;
+    flex-wrap: wrap;
+    font-weight: bold;
+    padding: 20px;
+}
+.posts{
+    display: flex;
+    width: 50%;
+}

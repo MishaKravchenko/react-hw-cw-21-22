@@ -1,0 +1,12 @@
+.container_users{
+    background-color: #24d5ff;
+    display: flex;
+    max-width: 50%;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+.users{
+    display: flex;
+    width: 50%;
+}
