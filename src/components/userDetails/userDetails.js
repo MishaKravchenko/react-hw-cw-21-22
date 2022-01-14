@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const UserDetails = ({ user:{ id, name, username, email, phone, address },getPostId }) => {
+const UserDetails = ({user: {id, name, username, email, phone, address}, getPostId}) => {
 
     return (
         <div>

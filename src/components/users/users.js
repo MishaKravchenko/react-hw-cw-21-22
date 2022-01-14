@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react';
 
-import User from "./user";
-import UserDetails from "./userDetails";
-import {userService} from "../services/user.service";
-import {postService} from "../services/post.service";
-import Post from "./post";
+import User from "../user/user";
+import UserDetails from "../userDetails/userDetails";
+import {userService} from "../../services/user.service";
+import {postService} from "../../services/post.service";
+import Post from "../post/post";
 
 const Users = () => {
 
@@ -23,22 +23,22 @@ const Users = () => {
             .then(value => setUser(value))
     }
 
-    const  getPostId = (id) => {
+    const getPostId = (id) => {
         postService.getById(id)
             .then(value => setPosts(value))
     }
 
     return (
-        <div>
-            <div>
+        <div className={"main_container"}>
+            <div className={"users"}>
                 {users.map(value => <User key={value.id} user={value} getUserId={getUserId}/>)}
             </div>
 
-            <div>
-                {user && <UserDetails  user={user} getPostId={getPostId}/>}
+            <div className={"user_details"}>
+                {user && <UserDetails user={user} getPostId={getPostId}/>}
             </div>
 
-            <div>
+            <div className={"posts"}>
                 {posts && posts.map(post => <Post key={post.id} post={post}/>)}
             </div>
         </div>
