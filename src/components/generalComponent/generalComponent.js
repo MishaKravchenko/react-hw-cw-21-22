@@ -5,8 +5,9 @@ import UserDetails from "../userDetails/userDetails";
 import {userService} from "../../services/user.service";
 import {postService} from "../../services/post.service";
 import Post from "../post/post";
+import "../generalComponent/general.css"
 
-const Users = () => {
+const GeneralComponent = () => {
 
     const [users, setUsers] = useState([]);
     const [user, setUser] = useState(null);
@@ -45,4 +46,4 @@ const Users = () => {
     );
 };
 
-export default Users;
+export default GeneralComponent;

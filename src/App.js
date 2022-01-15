@@ -1,12 +1,12 @@
 import React from 'react';
 import "./App.css"
 
-import Users from "./components/users/users";
+import GeneralComponent from "./components/generalComponent/generalComponent";
 
 const App = () => {
     return (
         <div className={"main"}>
-            <Users/>
+            <GeneralComponent/>
         </div>
     );
 };
