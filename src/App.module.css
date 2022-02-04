@@ -1,0 +1,10 @@
+.form{
+    display: flex;
+    justify-content: space-around;
+    background-color: gold;
+}
+.catsdogs{
+    display: flex;
+    justify-content: space-between;
+    background-color: #bc62ff;
+}
