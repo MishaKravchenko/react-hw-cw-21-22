@@ -1,0 +1,9 @@
+.postPage{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.postPageItem{
+    width: 50%;
+}

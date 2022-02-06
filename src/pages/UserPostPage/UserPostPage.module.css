@@ -1,0 +1,13 @@
+.userPostPage{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+
+}
+
+.userPostPageItem{
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    text-align: center;
+}
