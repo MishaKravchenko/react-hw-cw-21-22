@@ -1,0 +1,23 @@
+{
+  "name": "react-homework-21-22",
+  "version": "1.0.0",
+  "main": "lesson6.js",
+  "dependencies": {
+    "axios": "^0.25.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MishaKravchenko/react-hw-cw-21-22.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MishaKravchenko/react-hw-cw-21-22/issues"
+  },
+  "homepage": "https://github.com/MishaKravchenko/react-hw-cw-21-22#readme",
+  "description": ""
+}
